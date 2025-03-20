@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Environment Files ###
+.env
+*.env
+!.env.example
+
+### Logs ###
+*.log
+logs/
+
+### Docker ###
+.docker/
+docker-compose.override.yml
+
+### System Files ###
+.DS_Store
+Thumbs.db
